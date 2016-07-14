@@ -1,0 +1,154 @@
+/*rest*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, legend, input, textarea, select, p, blockquote, th, td, img {
+    padding: 0;
+    margin: 0
+}
+
+body {
+    width: 100%;
+    font-family: "Î¢ÈíÑÅºÚ", "Arial Narrow", HELVETICA;
+    font-size: 12px;
+    color: #888888
+}
+
+ol, ul {
+    list-style: none
+}
+
+fieldset, img {
+    border: 0
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+a {
+    color: #2d374b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cd0200;
+    text-decoration: none;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+* html {
+    background-image: url(about:blank);
+    background-attachment: fixed;
+}
+
+.w{
+    width: 1003px;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*µ¼º½*/
+.navWrap {
+    width: 100%;
+    height: 90px;
+    background: rgba(255, 255, 255, 0.3);
+   /*background: #fff;*/
+    position: fixed;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop));
+    text-align: center;
+    line-height: 90px;
+    z-index: 20;
+}
+
+.logo {
+    height: 45px; 
+    width: 135px; 
+    background:url("../images/logo.png") no-repeat; 
+    background-position:-12690px 0;
+    margin-top: 22px;
+}
+
+.nav {
+    font: 400 16px/90px "Microsoft YaHei";
+    cursor: pointer;
+    width: 800px;
+    position: relative;
+}
+
+.nav li {
+    width: 100px;
+    float: left;
+}
+
+.nav li a {
+    color: #000;
+    width: 100px;
+    display: block;
+}
+.nav span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 90px;
+    background: #2D719A;
+}
+ul {
+    position: relative;
+}
+
+/*.nav li a:hover {
+    text-decoration: none;
+    background: #2D719A;
+}*/
+
+/*.nav li.back {
+    background: #2D719A;
+}*/
+/*底部*/
+.footer{
+    height: 287px;
+    background-color: #000;
+    margin-top: 55px;
+}
+    
+.footer dl{
+    width: 250px;
+    height: 55px;
+    color:#fff;
+    text-align: center;
+    float: left;
+}
+.footer dt{
+    height: 55px;
+    background: #2d719a;
+    font:bold 15px/55px "微软雅黑";
+}
+.footer dd{
+    font:200 13px/33px "微软雅黑";
+}
+

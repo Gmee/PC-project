@@ -1,0 +1,428 @@
+/*banner*/
+body{
+    background: #f4f2f3;
+}
+.wrapper {
+    width: 986px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#banner {
+    width: 100%;
+    height: 650px;
+    background: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+#banner_img {
+    display: block;
+    position: relative;
+}
+
+#banner_img li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 650px;
+    background-position: center;
+    background-size: cover;
+    display: none;
+}
+
+#banner_img .ad_img {
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    width: 500px;
+    height: 400px
+    display:block;
+}
+#banner_img .ad_img img{
+    display:block;
+}
+
+#banner_img .ad_txt {
+    position: absolute;
+    left: 10px;
+    top: 170px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(51, 51, 51, 0.3);
+}
+
+#banner_img .ad_txt h2 {
+    font: bold 36px/60px Microsoft YaHei;
+}
+
+#banner_img .ad_txt h2 {
+    font: bold 36px/60px Microsoft YaHei;
+}
+
+#banner_img .ad_txt p {
+    font-family: Microsoft YaHei;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px
+}
+
+#banner_img .ad_txt a {
+    display: block;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 30px;
+    color: #000000;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 5px;
+    background-color: #FFF
+}
+
+#banner_img .ad_txt a:hover {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 30px;
+    color: #0099FF;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #FFFFFF
+}
+
+#banner_ctr {
+    position: absolute;
+    width: 960px;
+    height: 122px;
+    margin-left: -480px;
+    left: 50%;
+    bottom: 40px;
+    z-index: 1;
+}
+
+#banner_ctr ul {
+    width: 960px;
+    height: 122px;
+    background: url(../images/serv_ico.png) center no-repeat;
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+#banner_ctr li {
+    display: block;
+    float: left;
+    width: 115px;
+    height: 122px;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+#banner_ctr li.first-item {
+    width: 20px;
+    -webkit-border-radius: 20px 0 0 20px;
+    border-radius: 20px 0 0 20px;
+    cursor: default;
+    background-image: url(../images/banner_ctr.png);
+    background-repeat: no-repeat;
+}
+
+#banner_ctr li.last-item {
+    width: 20px;
+    -webkit-border-radius: 0 20px 20px 0;
+    border-radius: 0 20px 20px 0;
+    cursor: default;
+    background-image: url(../images/banner_ctrr.png);
+    background-repeat: no-repeat;
+}
+
+#drag_ctr {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    width: 115px;
+    height: 156px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    bottom: 170px;
+    background: #0084cf;
+}
+
+#drag_arrow {
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    width: 115px;
+    height: 156px;
+    background: url(../images/drag_banner_arrow.gif) center 14px no-repeat;
+}
+/*banner结束*/
+/*标题一*/
+.content-bd{
+    border: 1px solid #e3e3e1;
+    background: #f9f9f9;
+    border-radius:15px;
+}
+.title{
+    height: 86px;
+    margin-top:25px;
+    margin-bottom:15px;
+    box-shadow: 0 3px 3px 1px #cfcecf;
+    position: relative;
+}
+.title img{
+    margin:30px 0 0 30px;
+    float:left;
+}
+.title h3{
+    font: bold 22px/30px "微软雅黑";
+    margin:30px 0 0 30px;
+    float:left;
+    color: #666;
+    height: 30px;
+}
+.title p{
+    font:lighter 12px/12px "宋体";
+    color: #bbb;
+    position:absolute;
+    text-indent: 50px;
+    top:60px; 
+}
+.title .rg{
+    width: 195px;
+    margin:17px 50px 0 0;
+}
+.title a{
+    height: 56px;
+    display: block;
+    font:bold 13px/56px "微软雅黑";
+    color: #164158;
+    background: url(../images/morepress.png) no-repeat;
+    text-align: center;
+}
+.title a:hover{
+    background: url(../images/more.png) no-repeat;
+}
+/*内容一*/
+.content-one{
+    height: 260px;
+    padding: 20px;
+    box-sizing:border-box;
+}
+.content-one .about-l{
+    width: 40%;
+    height: 220px;
+    font-size:13px;
+    color:#888;
+}
+.content-one .about-c{
+    cursor: pointer;
+    height: 230px;
+    width: 205px;
+    background: url(../images/about_bg.png) no-repeat ;
+}
+.content-one .about-c:hover{
+    background: url(../images/about_bg2.png) no-repeat;
+}
+.content-one .about-r{
+    width: 350px;
+    text-align: left;
+}
+.content-one .about-new{
+    margin: 20px 0 0 10px;
+    height: 125px;
+    border: 1px dashed #e3e3e1;
+    border-radius: 5px;
+}
+.content-one .about-new ul{
+    width: 300px;
+}
+.content-one .about-new li{
+    line-height: 25px;
+    height: 25px;
+    text-indent: 15px;
+}
+.about-new li span{
+    line-height: 25px;
+    height: 25px;
+    float: right;
+    padding-right: 5px;
+}
+/*内容二*/
+.content-two{
+    height: 366px;
+    position: relative;
+}
+.content-two .sv-box{
+    width: 333px;
+    height: 183px;
+    float:left;
+    opacity: 0.8;
+}
+.content-two .sv-box:hover{
+    opacity: 1;
+}
+.sv-box img{
+    float:left;
+    width: 100px;
+    height: 120px;
+    margin: 32px 0 0 20px;
+}
+/*抖动*/
+    @-webkit-keyframes bounce-down {
+    25% {
+        -webkit-transform: translateY(-10px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(10px);
+    }
+}
+ 
+    @keyframes bounce-down {
+    25% {
+        transform: translateY(-10px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+ 
+.animate-bounce-down{
+    -webkit-animation: bounce-down 1.5s linear infinite;
+    animation: bounce-down 1.5s linear infinite;
+}
+ 
+@-webkit-keyframes bounce-up {
+    25% {
+        -webkit-transform: translateY(10px);
+    }
+    50%, 100% {
+        -webkit-transform: translateY(0);
+    }
+    75% {
+        -webkit-transform: translateY(-10px);
+    }
+}
+ 
+@keyframes bounce-up {
+    25% {
+        transform: translateY(10px);
+    }
+    50%, 100% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+}
+.sv-box:hover img{
+    -webkit-animation: bounce-up 1.4s linear infinite;
+    animation: bounce-up 1.4s linear infinite;
+}
+.sv-box dl{
+    width: 175px;
+    height: 150px;
+    float:left;
+    margin:40px 0 0 10px;
+}
+.sv-box dl dt{
+    font:bold 18px/26px "微软雅黑";
+    color:#333;
+}
+.sv-box:hover dt{
+    color:#3285af;
+}
+.sv-box dl dd{
+    font:12px/20px "微软雅黑";
+    color:#999;
+}
+.content-two .line{
+    width: 1px;
+    height: 300px;
+    background:#ccc;
+    position:absolute;
+    top:33px;
+}
+.content-two .one{
+    left:334px;
+}
+.content-two .two{
+    left:667px;
+}
+/*内容三*/
+.content-three{
+    height: 188px;
+}
+.content-three .contact{
+    width: 450px;
+    height: 155px;
+    margin:25px 0 0 30px;
+}
+.contact p{
+    font:bold 14px/32px "微软雅黑";
+    color:#666;
+}
+.content-three .address{
+    width: 420px;
+    height: 160px;
+    margin:15px 20px 0 0;
+    background: url(../images/contact_map.png);
+}
+.contact span{
+    display: block;
+    float:left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+/*    background: url(../images/contact_ui.png) 0 0;
+*/    margin-right:40px;
+}
+.contact .bg1{
+    background: url(../images/contact_ui.png) 0 0px;
+}
+.contact .bg2{
+    background: url(../images/contact_ui.png) -50px 0;
+}
+.contact .bg3{
+    background: url(../images/contact_ui.png) -100px 0;
+}
+.contact .bg4{
+    background: url(../images/contact_ui.png) -150px 0;
+}
+.contact .bg5{
+    background: url(../images/contact_ui.png) -200px 0;
+}
+.contact .bg1:hover{
+    background: url(../images/contact_ui.png) 0 -50px;
+}
+.contact .bg2:hover{
+    background: url(../images/contact_ui.png) -50px -50px;
+}
+.contact .bg3:hover{
+    background: url(../images/contact_ui.png) -100px -50px;
+}
+.contact .bg4:hover{
+    background: url(../images/contact_ui.png) -150px -50px;
+}
+.contact .bg5:hover{
+    background: url(../images/contact_ui.png) -200px -50px;
+}
+
+
+
+
+
+
+
+
